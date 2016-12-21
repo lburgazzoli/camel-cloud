@@ -6,7 +6,7 @@ spec:
         - 
           env:
           - name: SPRING_APPLICATION_NAME
-            value: camel-cloud-service
+            value: camel-cloud-svc
           - name: POD_NAME
             valueFrom:
               fieldRef:
