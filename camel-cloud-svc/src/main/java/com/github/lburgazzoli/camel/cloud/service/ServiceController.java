@@ -16,15 +16,11 @@
  */
 package com.github.lburgazzoli.camel.cloud.service;
 
-import java.util.concurrent.atomic.AtomicLong;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ServiceController {
-    private final AtomicLong counter = new AtomicLong();
-
     @RequestMapping("/hello")
     public String hello() {
         String name = System.getenv("POD_NAME");
