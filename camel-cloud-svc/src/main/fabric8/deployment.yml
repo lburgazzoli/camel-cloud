@@ -1,0 +1,13 @@
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+        - 
+          env:
+          - name: SPRING_APPLICATION_NAME
+            value: camel-cloud-service
+          - name: POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
