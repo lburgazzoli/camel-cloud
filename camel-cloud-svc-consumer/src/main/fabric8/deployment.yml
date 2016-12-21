@@ -6,6 +6,4 @@ spec:
         - 
           env:
           - name: SPRING_APPLICATION_NAME
-            value: camel-cloud-service-consumer
-          - name: SERVICE_NAME
-            value: camel-cloud-service
+            value: camel-cloud-svc-consumer
