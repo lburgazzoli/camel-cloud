@@ -29,12 +29,12 @@
     <!-- plugins -->
     <version.maven.compiler.plugin>3.6.0</version.maven.compiler.plugin>
     <version.maven.surefire.plugin>2.19.1</version.maven.surefire.plugin>
-    <version.fabric8.maven.plugin>3.2.7</version.fabric8.maven.plugin>
+    <version.fabric8.maven.plugin>3.2.10</version.fabric8.maven.plugin>
     
     <!-- deps -->
     <version.camel>2.19.0-SNAPSHOT</version.camel>
-    <version.fabric8>2.2.182</version.fabric8>
-    <version.spring.boot>1.4.2.RELEASE</version.spring.boot>
+    <version.fabric8>2.2.185</version.fabric8>
+    <version.spring.boot>1.4.3.RELEASE</version.spring.boot>
     <version.spring.cloud>1.1.6.RELEASE</version.spring.cloud>
     <version.spring.cloud.netflix>1.2.3.RELEASE</version.spring.cloud.netflix>
     <version.spring.cloud.kubernetes>0.1.4</version.spring.cloud.kubernetes>
